@@ -1,0 +1,570 @@
+@font-face {
+    font-family: Mabook_Import;
+    src: url(Mabook.ttf);
+}
+@font-face {
+    font-family: Lexend_Import;
+    src: url(LexendDeca-VariableFont_wght.ttf);
+}
+
+body{
+    margin: 0%;
+    font-family:Mabook_Import;
+    letter-spacing: 1px;
+}
+
+#Title, #LableBody{
+
+    display: flex;
+    margin: 0%;
+    border: 1%;
+    padding: 1%;
+    display:inline-flexbox;
+    font-style: italic; 
+    background-color:burlywood;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+#SubstanceBody{
+    background-color:blanchedalmond ;
+}
+h1,h2,h3{    
+    margin: .3em;
+}
+
+h3, h4, h5{
+    font-size: 400%;
+    padding: 12%; 
+    padding-right: 14%; 
+    padding-top: 10%; 
+    padding-bottom: 14%; 
+    margin: 0%;
+    background-color:teal;
+    color: blanchedalmond;
+    text-align: center;
+    border-radius: .2em;
+}
+
+#Discription{    
+    
+ text-align:center;
+ font-size: 70%; 
+ border: 0px;
+ margin: 0%;
+ position: relative;  
+ top: -2.4em;
+ color: blanchedalmond;
+}
+#cssText{
+    position: relative;  
+    background-color: brown;
+}
+body{
+    font-size: 1.5vw;
+    padding-left:2%;
+    padding-right: 2%;
+        background-color: burlywood;
+}
+
+#HTMLBody, #CSSBody{        
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+@media (min-width: 1400px ){
+    body{
+        padding-left:8%;
+        padding-right: 8%;
+        background-color: burlywood;
+        font-size: 1.2vw;
+
+        
+    }
+    #delImage_{
+        left:  55vw;
+    }
+    #BigHTMLGrid{
+        font-size: .8vw;
+
+    }
+
+    #HTMLBody, #CSSBody, #CheatSheetBox{        
+        padding: .8em;
+    }
+}
+
+#LableBody{
+    padding: 2%;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    margin: 0%;
+    background-color:blanchedalmond;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    text-align: center;
+}
+
+#HTMLBody{
+    color:teal;
+    background-color: teal;
+}
+#CSSBody{
+    color: brown;
+    background-color: brown;
+}
+#MainBody{
+    padding: 2em;
+    background-color: blanchedalmond;
+    flex-grow: 1;
+}
+#MainBody p{
+    margin: 1em;
+}
+
+p, ul, li{
+    margin: 1%;
+    border: 0%;
+    font-weight: bolder;
+}
+
+h4{
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 200%;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 0em;
+    border-bottom-right-radius: 0em;
+    background-color: teal;
+    display: inline;
+    position:relative;
+    
+}
+#AdjustDownSlightlySetup{
+    bottom: -.12em;
+}
+#CSSColour{
+    background-color: brown;    
+}
+#CSSFadeColour{
+    color: rgba(165, 42, 42, 0.308);
+}
+
+#SpreadLeftRight{
+    display: flex;
+    justify-content: space-between;
+}
+#TryGhostly{
+    display: flex;
+    justify-content: space-between;
+    color:burlywood;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+#TryGhostly a{
+    color:burlywood;
+}
+#delImage_{
+    position: absolute;
+    right: 5em;
+    top: 9em;
+    height: 10em;
+}
+
+#ColourTeal{
+    color: teal;
+}
+
+li{
+    margin-bottom: .6em;
+}
+#SpaceVerticallyEven{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#Highlight, #HighlightRed{
+    position: relative;
+    bottom: -.05em;
+    font-size: 1.4em;
+    letter-spacing: .11em;
+    margin-left: .2em;
+    margin-right: .2em;
+    font-style: italic;
+    line-height: 1.2em;
+}
+#Highlight {
+    color: rgb(255, 102, 0);
+    text-shadow: 
+    -1px -1px 0 teal, /* Top-left shadow */
+    1px -1px 0 teal,  /* Top-right shadow */
+    -1px 1px 0 teal,  /* Bottom-left shadow */
+    1px 1px 0 teal;   /* Bottom-right shadow */
+}
+#HighlightRed{
+    color: rgb(255, 196, 0);
+    text-shadow: 
+    -1px -1px 0 brown, /* Top-left shadow */
+    1px -1px 0 brown,  /* Top-right shadow */
+    -1px 1px 0 brown,  /* Bottom-left shadow */
+    1px 1px 0 brown;   /* Bottom-right shadow */
+}
+
+#SideBySide{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#CozySpreadHoriz{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    margin: 0%;
+    margin-left: 8%;
+    margin-right: 8%;
+    border: 0%;
+    padding: 0%;
+}
+#CozySpreadHoriz p{
+    margin: .6em;
+    margin-top: 0em;
+    margin-bottom: .3em;
+
+
+    border: 0%;
+    padding: 0%;
+}
+#Extentions{
+    margin: 0em;
+    padding: 1em; 
+    display: flexbox;
+    flex-direction: column;
+    border-radius: .2em;
+}
+#TwoColumnGrid {
+display: grid;
+margin: 0%;
+padding: 0%;
+
+grid-template-columns: 4em 1fr;
+}
+
+#TwoColumnGrid p{    
+margin: .2em;
+padding: 0%;
+}
+
+#BigHTMLGrid{
+    display: flex;
+    flex-wrap: wrap;
+}
+#BigHTMLGrid #HTMLBody, #BigHTMLGrid #CSSBody{
+    margin: 1em;
+}
+
+#MoreReadableFont p{
+    letter-spacing: 5em;
+}
+#MoveUpGrid{
+    text-align: center;
+    position: relative;
+    top: -1em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+
+    padding: .3em 1em;
+    border: 0%;
+    margin: 0%;
+    font-size: 200%;
+}
+#MainGridItem{
+    padding: 1em;
+    padding-top: 0em;
+    margin-bottom: 0em;
+    padding-left: 2em;
+    padding-right: 2em;
+
+    background-color: blanchedalmond;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+h5{
+    padding: .4em; 
+    margin: 0%;
+    background-color:teal;
+    color: blanchedalmond;
+    text-align: center;
+    border-radius: .2em;
+}
+underlableS{
+    font-style: italic;
+    font-size: .8em;
+    text-align: center;
+    padding: 0%;
+    margin: 0em;
+    border: 0%;
+    position: relative;
+    bottom: 1.9em;
+}
+#BelowSpacing{    
+    bottom:     -1.9em;    
+    margin-bottom: 3em;
+}
+#BelowSpacing1{    
+    bottom:     -.5em;    
+    margin-bottom: 1em;
+}
+
+#CSSBody h5{
+    background-color: brown;
+}
+#threeColumnGridw{
+    display: flex;
+    align-items: flex-start;
+    padding: 0%;
+}
+#threeColumnGridw h5{
+    display: inline
+}
+placeHolder{
+    padding-left: 5em;
+}
+
+#evenSpaceHoriz {
+    display: inline;
+
+}
+#fiveColumnPair{
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+}
+#fiveColumnPair h5{
+    position: relative;
+    left: -1em;
+    text-align:inherit;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#BitLeftU{   
+    position: relative;
+    left: -2em;
+}
+
+SectionSeparator {  
+    font-size: 200%;
+    padding: .5em 1em;
+    margin: 1.5em 2em;
+    background-color:burlywood;
+    color: blanchedalmond;
+    text-align: center;
+    border-radius:1em;   
+    display: block;
+}
+#LineSeparator{
+    border-radius:0em;  
+    margin: 0% 0%; 
+    padding: 2px;
+
+    background-color:darkslategray;
+
+    background-color: #e5e5f7;
+opacity: 1;
+background: repeating-linear-gradient( -45deg,blanchedalmond , burlywood 5px, burlywood, blanchedalmond 25px );
+}
+
+#LastGridElement{
+    position: relative;
+    bottom: -3em;
+}
+#HTMLBody img{
+    height:10em;
+}
+
+#CommentColouring{
+    color:cadetblue;
+    margin-top: 1em;
+}
+#MainGridItem ul {
+    padding: 0%;
+    margin: 0%;
+}
+#MainGridItem #EnoughSpacingul p{
+    width: 100%;
+    margin-left: 0em;
+    margin-right: 5em;
+}
+
+#pRelative{
+    position: relative;
+}
+#SpaceW1{
+    width: 12em;    
+}
+#SpaceW1 p, #SpaceW1 #TryGhostly{
+    margin: .6em;
+padding: 0%;
+text-align: center;
+justify-content: center;
+}
+
+#LastGridElement1{
+    position: absolute;
+    bottom: 0.2em   ;
+    left:  10em  ;
+
+}
+#BackgroundTeal{
+    position: absolute;
+    bottom: 4em;
+    left: 3.5em;
+
+    background-color:teal;
+    padding: 0%;
+    margin: 0;
+    border: 0;
+}
+#BackgroundBlank{
+
+    font-size: .45em;
+    display: inline-block;
+    background-color:antiquewhite;
+    padding: 0%;
+    margin: 2px;
+    border: 0;
+}
+#BackgroundBlue, #BackgroundGold{
+    display: block;
+    background-color:rgba(165, 42, 42, 0.308);
+    margin: 0em;
+    padding: 1em 8em;
+    border: 0;
+
+
+
+}
+#BackgroundGold{
+    color:wheat;
+    background-color:crimson;
+    margin: .5em 3em 1em 0;
+}
+#pRelative m{
+    position: absolute;
+    width: 20em;
+    bottom: 2em;
+    left: -2em;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    word-spacing: -.1em;
+
+    color:burlywood;
+    margin: .6em;
+    padding: 0;
+    border: 0;
+}
+#imageBoxOutline{
+    padding: .2em;
+    background-color:darkslategrey;
+    margin-left: .4em;
+}
+#MainGridItem .Pink{
+    background-color:darkgoldenrod;
+    max-height: 4em;
+}
+#MainGridItem .Pink img{
+    background-color:yellowgreen;
+    max-height: 4em;
+
+}
+#imageBoxOutline a img{
+    max-width: 14em;
+    max-height: 14em;
+    height: auto;
+}
+#CheatSheetBox{
+    display: flex;
+    align-items: end;
+    flex-wrap: wrap;
+}
+#CheatSheetBox #MainGridItem{
+    padding: 1em;
+    display: flex;
+    font-size: 160%;
+
+}
+#CheatSheetBox #MainGridItem #BelowSpacing1{
+    display: inline-block;
+    
+}
+#flexx{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+#flexy{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+#HTMLBody .SmallerC{
+    font-size: 50%;    
+}
+#wideGrid p{
+    width:  18em;
+}
+#CenterText{
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: .5em;
+}
+#SmallGap{
+    margin-bottom: 1.6em;
+    color: rgba(128, 0, 0, 0.411);
+    font-style: italic;
+    width: 15em;
+}
+
+footer{
+    text-align: center;
+    color: burlywood;
+}
+#Backto a {
+    margin: 1em;
+    color:blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    width: 20em;
+    color:bisque;
+    font-style: normal;
+    justify-content: center;
+}
+#Backto{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+/*
+#CozySpreadHoriz p:nth-child(2n){
+}*/
+
+
+
+
